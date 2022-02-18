@@ -1,0 +1,116 @@
+@import "~antd/dist/antd.css";
+
+.header {
+  background-color: red;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.sider {
+  width: 20vw;
+}
+.firstDiv {
+  height: 100px;
+  background-color: rgb(164, 140, 210);
+}
+.ava {
+  margin-top: 18px;
+  height: 48px;
+  width: 48px;
+  margin-left: 24px;
+  border-radius: 24px;
+}
+.info {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.name {
+  margin-top: 16px;
+  margin-left: 10px;
+}
+p {
+  margin: 0;
+}
+.manager {
+  color: lightgray;
+}
+.managerName {
+  font-size: medium;
+  font-weight: bold;
+  color: antiquewhite;
+}
+.menu {
+  background-color: darkgray;
+  height: 100vh;
+}
+.ant-menu-item-selected {
+  background-color: black !important;
+  height: 50px;
+}
+.text {
+  font-weight: 600;
+}
+.body {
+  height: 50vh;
+  width: 40vw;
+  margin-top: 30px;
+  margin-left: 15px;
+  border-radius: 8px;
+  background-color: white;
+
+  display: flex;
+}
+.logo1 {
+  height: 50vh;
+  width: 20vw;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.img-wrapper {
+  overflow: hidden;
+}
+img.logo1:hover {
+  transform: scale(1.1);
+}
+.line {
+  height: 2px;
+  width: 60px;
+  background-color: darkred;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.news {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.text-wrapper {
+  height: 50vh;
+  width: 20vw;
+  border-radius: 8px;
+}
+.news1 {
+  font-size: medium;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.content {
+  flex-direction: row;
+  display: flex;
+}
+.news2 {
+  font-size: small;
+  font-weight: 400;
+  margin-top: 130px;
+  margin-left: 15px;
+}
+.news2Container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}

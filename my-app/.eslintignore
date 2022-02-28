@@ -1,0 +1,5 @@
+src/serviceWorker.ts
+src/reportWebVitals.ts
+tailwind.config.js
+tsconfig.json
+*.d.ts
